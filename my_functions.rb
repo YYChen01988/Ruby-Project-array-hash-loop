@@ -18,3 +18,8 @@ def find_item(array, item)
   end
   return false
 end
+
+def get_first_key(hash)
+  array = hash.keys()
+  return array[0]
+end
